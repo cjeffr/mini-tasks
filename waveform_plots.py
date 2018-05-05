@@ -13,8 +13,6 @@ def create_subplot(ar_len, col, row):
 
     return ax
 
-
-
 def no_cols(ar_len):
 
     cols = 1 if ar_len % 2 else 2
@@ -25,7 +23,6 @@ def no_cols(ar_len):
 
 
     return(cols, rows)
-
 
 def create_group_plot(ar_len, i, h1, h2, t1, t2, slip, gauge_depth, cols, rows):
     plot_number = i + 1
